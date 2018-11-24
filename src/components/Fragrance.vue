@@ -39,7 +39,7 @@ export default {
   },
   methods:{
     handlieClick(id){
-      this.$router.push('/FragranceDetail/' + id);
+      this.$router.push('/detail/' + id);
     },
     loadMore(){
       console.log('到底了');
