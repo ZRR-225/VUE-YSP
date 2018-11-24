@@ -37,7 +37,7 @@ export default {
   },
   methods:{
     handlieClick(id){
-      this.$router.push('/FlowerDetail/' + id);
+      this.$router.push('/detail/' + id);
     },
     loadMore(){
 
